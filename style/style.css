@@ -25,10 +25,6 @@
   --blue: hsl(228, 45%, 44%);
 }
 
-a {
-  text-decoration: none;
-}
-
 body {
   font-size: 11px;
   /* main */
@@ -70,6 +66,48 @@ body {
 }
 .navBtn:hover {
   background-color: rgb(240, 172, 183);
+}
+.navbar a {
+  text-decoration: none;
+}
+
+/* ################section one style ###################### */
+.section-one {
+  margin-top: 150px;
+  text-align: center;
+  align-items: center;
+}
+.section-one-header {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.section-one-pargraph {
+  font-size: 15px;
+  line-height: 1.5rem;
+  margin-bottom: 50px;
+}
+
+.section-one-btn {
+  border: 2px solid var(--Pink);
+  text-decoration: none;
+  width: 250px;
+  height: 50px;
+  padding: 15px;
+  margin: auto;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+  background-color: var(--Pink);
+}
+
+.section-one-btn a {
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
 }
 
 /* ******MOBILE SCREEN******** */

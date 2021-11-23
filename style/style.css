@@ -25,19 +25,51 @@
   --blue: hsl(228, 45%, 44%);
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   font-size: 11px;
-  text-align: center;
   /* main */
   font-family: "Open Sans", sans-serif;
 }
 .container {
   margin: auto;
-  background-color: var(--Pink);
 }
 
 .header {
   font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.navBtn {
+  border: 2px solid var(--Light);
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+  color: var(--Light);
+  width: 150px;
+  height: 35px;
+  font-size: 15px;
+  padding: 6px;
+  transition: all 0.5s 0s;
+  -webkit-transition: all 0.5s 0s ease;
+  -moz-transition: all 0.5s 0s ease;
+  -ms-transition: all 0.5s 0s ease;
+  -o-transition: all 0.5s 0s ease;
+}
+.navBtn:hover {
+  background-color: rgb(240, 172, 183);
 }
 
 /* ******MOBILE SCREEN******** */

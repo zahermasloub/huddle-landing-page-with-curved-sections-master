@@ -1,11 +1,43 @@
+/* For the social icons, you can use a font icon library. Some suggestions can be found below:
+
+- [Font Awesome](https://fontawesome.com/)
+- [IcoMoon](https://icomoon.io/)
+- [Ionicons](https://ionicons.com/) */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
+/* ## Colors
+
+### Primary */
+:root {
+  --Pink: hsl(322, 100%, 66%);
+  --Light: hsl(321, 100%, 78%);
+  --Light: hsl(0, 100%, 63%);
+
+  --Very-Dark-Cyan: hsl(192, 100%, 9%);
+  --Very-Pale-Blue: hsl(207, 100%, 98%);
+  --blue: hsl(228, 45%, 44%);
+}
+
+body {
+  font-size: 11px;
+  text-align: center;
+  /* main */
+  font-family: "Open Sans", sans-serif;
+}
 .container {
   margin: auto;
+  background-color: var(--Pink);
+}
+
+.header {
+  font-family: "Poppins", sans-serif;
 }
 
 /* ******MOBILE SCREEN******** */

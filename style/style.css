@@ -110,6 +110,18 @@ body {
   font-weight: bold;
 }
 
+/* ################section Two style ###################### */
+.section-two {
+  margin-top: 75px;
+}
+
+.section-two-photo {
+  text-align: center;
+}
+.section-img {
+  height: 450px;
+}
+
 /* ******MOBILE SCREEN******** */
 @media (max-width: 375px) {
   .container {

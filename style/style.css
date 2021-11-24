@@ -147,6 +147,7 @@ body {
 /* ################section Three style ###################### */
 .section-three {
   align-items: center;
+  background-color: #e3f7fe;
 }
 .image-container {
   display: flex;
@@ -154,11 +155,11 @@ body {
 }
 
 .image-of-container img {
-  height: 600px;
+  height: 334px;
 }
 
 .imag-text-container {
-  margin-top: 200px;
+  margin-top: 52px;
 }
 
 .header-section-three {
@@ -167,6 +168,8 @@ body {
 .section-three-paragraph {
   line-height: 1.5;
 }
+
+/* ################section Four style ###################### */
 
 /* ******MOBILE SCREEN******** */
 @media (max-width: 375px) {

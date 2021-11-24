@@ -185,21 +185,56 @@ body {
   align-items: center;
 }
 
-.image-container {
+.imag-container {
   display: flex;
   justify-content: space-evenly;
 }
 
 /* * ################section five style ###################### */
 
-.imagecontainer5 {
+.container5 {
   display: flex;
   justify-content: space-evenly;
   background-color: #f7fcff;
 }
-.
-box-shadow: 1px 20px 5px #f7fcff;
-height: 111px;
+.borderupimage5 img {
+  box-shadow: 1px 20px 5px #f7fcff;
+  height: 111px;
+}
+
+/* ##############section six ###################### */
+.sectionsix {
+  text-align: center;
+  align-items: center;
+  margin: 100px auto auto auto;
+}
+
+.submitheader {
+  font-size: 3em;
+  margin-bottom: 30px;
+}
+
+.btncontiner {
+  border: 1px solid var(--Pink);
+  width: 300px;
+  height: 50px;
+  margin: auto;
+  font-size: 20px;
+  padding-bottom: 7px;
+  padding-top: 12px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  background-color: var(--Pink);
+}
+.submitbtn {
+  text-decoration: none;
+  padding: 30px;
+  color: black;
+}
+
 /* ******MOBILE SCREEN******** */
 @media (max-width: 375px) {
   .container {

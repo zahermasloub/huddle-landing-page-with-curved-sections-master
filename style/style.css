@@ -12,9 +12,9 @@
   box-sizing: border-box;
 }
 
-/* ## Colors
+/* !## Colors
 
-### Primary */
+/* !### Primary */
 :root {
   --Pink: hsl(322, 100%, 66%);
   --Light: hsl(321, 100%, 78%);
@@ -71,7 +71,7 @@ body {
   text-decoration: none;
 }
 
-/* ################section one style ###################### */
+/* !################section one style ###################### */
 .section-one {
   margin-top: 150px;
   text-align: center;
@@ -110,7 +110,7 @@ body {
   font-weight: bold;
 }
 
-/* ################section Two style ###################### */
+/* !################section Two style ###################### */
 .section-two {
   margin-top: 75px;
 }
@@ -144,7 +144,7 @@ body {
   font-size: 14px;
 }
 
-/* ################section Three style ###################### */
+/* !################section Three style ###################### */
 .section-three {
   margin-top: 75px;
   text-align: center;
@@ -179,7 +179,7 @@ body {
   line-height: 1.5;
 }
 
-/* ################section Four style ###################### */
+/* !################section Four style ###################### */
 .sectionfour {
   margin-top: 30px;
   align-items: center;
@@ -190,7 +190,7 @@ body {
   justify-content: space-evenly;
 }
 
-/* * ################section five style ###################### */
+/* ! ################section five style ###################### */
 
 .container5 {
   display: flex;
@@ -202,11 +202,11 @@ body {
   height: 111px;
 }
 
-/* ##############section six ###################### */
+/*!##############section six ###################### */
 .sectionsix {
   text-align: center;
   align-items: center;
-  margin: 100px auto auto auto;
+  margin: 100px auto 150px auto;
 }
 
 .submitheader {
@@ -235,21 +235,21 @@ body {
   color: black;
 }
 
-/* ******MOBILE SCREEN******** */
-@media (max-width: 375px) {
-  .container {
-    width: 375px;
-  }
-}
-
-/* ###############footer */
+/* !###############footer ############################*/
 footer {
   color: white;
+  height: 200px;
 }
 .topimage {
 }
 .footercontainer {
+  display: flex;
+  justify-content: space-evenly;
   background-color: #03252e;
+}
+
+.footerimage img {
+  box-shadow: 1px 20px 5px #03252e;
 }
 
 /* ******SMALL SCREEN******** */
@@ -270,5 +270,12 @@ footer {
 @media (min-width: 1440px) {
   .container {
     width: 1440px;
+  }
+}
+
+/* ******MOBILE SCREEN******** */
+@media (max-width: 375px) {
+  .container {
+    width: 375px;
   }
 }

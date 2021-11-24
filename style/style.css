@@ -242,6 +242,16 @@ body {
   }
 }
 
+/* ###############footer */
+footer {
+  color: white;
+}
+.topimage {
+}
+.footercontainer {
+  background-color: #03252e;
+}
+
 /* ******SMALL SCREEN******** */
 @media (min-width: 768px) {
   .container {

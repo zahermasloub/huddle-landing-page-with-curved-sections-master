@@ -146,7 +146,6 @@ body {
 
 /* ################section Three style ###################### */
 .section-three {
-  align-items: center;
 }
 
 .image-container {
@@ -184,6 +183,8 @@ body {
   display: flex;
   justify-content: space-evenly;
 }
+
+/* * ################section five style ###################### */
 
 /* ******MOBILE SCREEN******** */
 @media (max-width: 375px) {

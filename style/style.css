@@ -155,7 +155,11 @@ body {
 }
 
 .border-up-image img {
-  box-shadow: -1px 1px 5px #f7fcff;
+  box-shadow: 1px 20px 5px #f7fcff;
+  height: 111px;
+}
+.border-bottom-image img {
+  height: 93px;
 }
 
 .image-of-container img {

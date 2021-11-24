@@ -147,15 +147,15 @@ body {
 /* ################section Three style ###################### */
 .section-three {
   align-items: center;
-  background-color: #e3f7fe;
 }
 
-.border-up-image {
-  color: #e3f7fe;
+.border-up-image img {
+  color: #f6fbff;
 }
 .image-container {
   display: flex;
   justify-content: space-evenly;
+  background-color: #f6fbff;
 }
 
 .image-of-container img {

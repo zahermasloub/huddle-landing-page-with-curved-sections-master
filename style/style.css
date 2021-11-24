@@ -124,13 +124,13 @@ body {
 
 .number-contanier {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin-top: 70px;
 }
 
 .people,
 .numbers {
-  font-size: 70px;
+  font-size: 60px;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -142,6 +142,30 @@ body {
 .people-paragraph {
   text-align: center;
   font-size: 14px;
+}
+
+/* ################section Three style ###################### */
+.section-three {
+  align-items: center;
+}
+.image-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.image-of-container img {
+  height: 600px;
+}
+
+.imag-text-container {
+  margin-top: 200px;
+}
+
+.header-section-three {
+  font-size: 4em;
+}
+.section-three-paragraph {
+  line-height: 1.5;
 }
 
 /* ******MOBILE SCREEN******** */

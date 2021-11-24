@@ -149,13 +149,13 @@ body {
   align-items: center;
 }
 
-.border-up-image img {
+/* .border-up-image img {
   color: #f6fbff;
-}
+} */
 .image-container {
   display: flex;
   justify-content: space-evenly;
-  background-color: #f6fbff;
+  /* background-color: #f6fbff; */
 }
 
 .image-of-container img {

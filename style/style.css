@@ -149,6 +149,10 @@ body {
   align-items: center;
   background-color: #e3f7fe;
 }
+
+.border-up-image {
+  color: #e3f7fe;
+}
 .image-container {
   display: flex;
   justify-content: space-evenly;

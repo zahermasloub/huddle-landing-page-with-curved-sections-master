@@ -258,6 +258,33 @@ footer {
   line-height: 2;
 }
 
+.formtext p {
+  font-size: 10px;
+  line-height: 2;
+}
+.footerlinks {
+  padding-bottom: 95px;
+}
+
+#email {
+  width: 273px;
+  height: 38px;
+  border-radius: 5px;
+  border: 2px solid var(--Pink);
+  outline: none;
+}
+
+#submitt {
+  width: 149px;
+  height: 37px;
+  border-radius: 10px;
+  background-color: var(--Pink);
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 35px;
+}
+
 /* ******SMALL SCREEN******** */
 @media (min-width: 768px) {
   .container {

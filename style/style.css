@@ -158,10 +158,10 @@ body {
 
 .border-up-image img {
   box-shadow: 1px 20px 5px #f7fcff;
-  height: 111px;
+  height: inherit;
 }
 .border-bottom-image img {
-  height: 93px;
+  height: inherit;
 }
 
 .image-of-container img {
@@ -199,7 +199,7 @@ body {
 }
 .borderupimage5 img {
   box-shadow: 1px 20px 5px #f7fcff;
-  height: 111px;
+  height: inherit;
 }
 
 /*!##############section six ###################### */
@@ -252,14 +252,16 @@ footer {
 
 .footerimage img {
   box-shadow: 1px 20px 5px #03252e;
+  margin: auto;
+  height: 279px;
 }
 .linkstext p {
-  font-size: 10px;
+  font-size: 15px;
   line-height: 2;
 }
 
 .formtext p {
-  font-size: 10px;
+  font-size: 15px;
   line-height: 2;
 }
 .footerlinks {

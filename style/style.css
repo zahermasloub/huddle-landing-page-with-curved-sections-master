@@ -158,10 +158,10 @@ body {
 
 .border-up-image img {
   box-shadow: 1px 20px 5px #f7fcff;
-  height: inherit;
+  height: 111px;
 }
 .border-bottom-image img {
-  height: inherit;
+  height: 93px;
 }
 
 .image-of-container img {
@@ -199,7 +199,7 @@ body {
 }
 .borderupimage5 img {
   box-shadow: 1px 20px 5px #f7fcff;
-  height: inherit;
+  height: 111px;
 }
 
 /*!##############section six ###################### */
@@ -253,7 +253,7 @@ footer {
 .footerimage img {
   box-shadow: 1px 20px 5px #03252e;
   margin: auto;
-  height: 279px;
+  height: 141px;
 }
 .linkstext p {
   font-size: 15px;
@@ -305,6 +305,25 @@ footer {
 @media (min-width: 1440px) {
   .container {
     width: 1440px;
+  }
+
+  .border-up-image img {
+    box-shadow: 1px 20px 5px #f7fcff;
+    height: auto;
+  }
+
+  .border-bottom-image img {
+    height: inherit;
+  }
+  .borderupimage5 img {
+    box-shadow: 1px 20px 5px #f7fcff;
+    height: inherit;
+  }
+
+  .footerimage img {
+    box-shadow: 1px 20px 5px #03252e;
+    margin: auto;
+    height: 279px;
   }
 }
 

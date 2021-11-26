@@ -6,6 +6,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -30,8 +31,10 @@ body {
   /* main */
   font-family: "Open Sans", sans-serif;
 }
+
 .container {
   margin: auto;
+  overflow: none;
 }
 
 .header {
@@ -64,21 +67,30 @@ body {
   -ms-transition: all 0.5s 0s ease;
   -o-transition: all 0.5s 0s ease;
 }
+
 .navBtn:hover {
   background-color: rgb(240, 172, 183);
 }
+
 .navbar a {
   text-decoration: none;
 }
 
 /* !################section one style ###################### */
 .section-one {
-  margin-top: 150px;
+  /* margin-top: 150px; */
+  height: 565px;
   text-align: center;
   align-items: center;
 }
+
+.pageText {
+  margin-top: 200px;
+ 
+}
+
 .section-one-header {
-  font-size: 30px;
+  font-size: 37px;
   font-weight: 700;
 }
 
@@ -112,12 +124,14 @@ body {
 
 /* !################section Two style ###################### */
 .section-two {
+  height: 565px;
   margin-top: 75px;
 }
 
 .section-two-photo {
   text-align: center;
 }
+
 .section-img {
   height: 450px;
 }
@@ -134,10 +148,12 @@ body {
   margin-top: 0;
   margin-bottom: 0;
 }
+
 .people-image,
 .message-image {
   height: 30px;
 }
+
 .message-paragraph,
 .people-paragraph {
   text-align: center;
@@ -148,6 +164,7 @@ body {
 .section-three {
   margin-top: 75px;
   text-align: center;
+  height: 565px;
 }
 
 .image-container {
@@ -160,6 +177,7 @@ body {
   box-shadow: 1px 20px 5px #f7fcff;
   height: 111px;
 }
+
 .border-bottom-image img {
   height: 93px;
 }
@@ -175,6 +193,7 @@ body {
 .header-section-three {
   font-size: 3em;
 }
+
 .section-three-paragraph {
   line-height: 1.5;
 }
@@ -197,6 +216,7 @@ body {
   justify-content: space-evenly;
   background-color: #f7fcff;
 }
+
 .borderupimage5 img {
   box-shadow: 1px 20px 5px #f7fcff;
   height: 111px;
@@ -229,6 +249,7 @@ body {
   -o-border-radius: 20px;
   background-color: var(--Pink);
 }
+
 .submitbtn {
   text-decoration: none;
   padding: 30px;
@@ -240,6 +261,7 @@ footer {
   color: white;
   height: 200px;
 }
+
 .footerlinks {
   margin-right: 350px;
 }
@@ -253,8 +275,9 @@ footer {
 .footerimage img {
   box-shadow: 1px 20px 5px #03252e;
   margin: auto;
-  height: 148px;
+  height: 140px;
 }
+
 .linkstext p {
   font-size: 15px;
   line-height: 2;
@@ -264,6 +287,7 @@ footer {
   font-size: 15px;
   line-height: 2;
 }
+
 .footerlinks {
   padding-bottom: 95px;
 }
@@ -315,6 +339,7 @@ footer {
   .border-bottom-image img {
     height: inherit;
   }
+
   .borderupimage5 img {
     box-shadow: 1px 20px 5px #f7fcff;
     height: inherit;
@@ -338,6 +363,7 @@ footer {
     /* main */
     font-family: "Open Sans", sans-serif;
   }
+
   .container {
     margin: auto;
   }
@@ -372,13 +398,16 @@ footer {
     -ms-transition: all 0.5s 0s ease;
     -o-transition: all 0.5s 0s ease;
   }
+
   .loog {
     height: 29px;
     width: 147px;
   }
+
   .navBtn:hover {
     background-color: rgb(240, 172, 183);
   }
+
   .navbar a {
     text-decoration: none;
   }
@@ -389,6 +418,7 @@ footer {
     text-align: center;
     align-items: center;
   }
+
   .section-one-header {
     font-size: 30px;
     font-weight: 700;
@@ -430,6 +460,7 @@ footer {
   .section-two-photo {
     text-align: center;
   }
+
   .section-img {
     height: 264px;
   }
@@ -453,10 +484,12 @@ footer {
     margin-top: 0;
     margin-bottom: 0;
   }
+
   .people-image,
   .message-image {
     height: 30px;
   }
+
   .message-paragraph,
   .people-paragraph {
     text-align: center;
@@ -482,6 +515,7 @@ footer {
     box-shadow: 1px 20px 5px #f7fcff;
     height: 111px;
   }
+
   .border-bottom-image img {
     height: 93px;
   }
@@ -497,6 +531,7 @@ footer {
   .header-section-three {
     font-size: 3em;
   }
+
   .section-three-paragraph {
     line-height: 1.5;
   }
@@ -524,6 +559,7 @@ footer {
     align-items: center;
     background-color: #f7fcff;
   }
+
   .borderupimage5 img {
     box-shadow: 1px 20px 5px #f7fcff;
     height: 111px;
@@ -556,6 +592,7 @@ footer {
     -o-border-radius: 20px;
     background-color: var(--Pink);
   }
+
   .submitbtn {
     text-decoration: none;
     padding: 30px;
@@ -567,6 +604,7 @@ footer {
     color: white;
     height: 200px;
   }
+
   .footerlinks {
     margin-right: 350px;
   }
@@ -584,6 +622,7 @@ footer {
     margin: auto;
     height: 42px;
   }
+
   .linkstext p {
     font-size: 15px;
     line-height: 2;
@@ -593,8 +632,9 @@ footer {
     font-size: 15px;
     line-height: 2;
   }
+
   .footerlinks {
-    margin:68px auto auto auto;
+    margin: 68px auto auto auto;
     padding-bottom: 95px;
   }
 

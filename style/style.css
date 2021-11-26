@@ -253,7 +253,7 @@ footer {
 .footerimage img {
   box-shadow: 1px 20px 5px #03252e;
   margin: auto;
-  height: 141px;
+  height: 148px;
 }
 .linkstext p {
   font-size: 15px;
@@ -331,5 +331,283 @@ footer {
 @media (max-width: 375px) {
   .container {
     width: 375px;
+  }
+
+  body {
+    font-size: 11px;
+    /* main */
+    font-family: "Open Sans", sans-serif;
+  }
+  .container {
+    margin: auto;
+  }
+
+  .header {
+    font-family: "Poppins", sans-serif;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .navBtn {
+    border: 2px solid var(--Light);
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    color: var(--Light);
+    width: 80px;
+    height: 35px;
+    font-size: 13px;
+    padding: 6px;
+    transition: all 0.5s 0s;
+    -webkit-transition: all 0.5s 0s ease;
+    -moz-transition: all 0.5s 0s ease;
+    -ms-transition: all 0.5s 0s ease;
+    -o-transition: all 0.5s 0s ease;
+  }
+  .loog {
+    height: 35px;
+    width: 159px;
+  }
+  .navBtn:hover {
+    background-color: rgb(240, 172, 183);
+  }
+  .navbar a {
+    text-decoration: none;
+  }
+
+  /* !################section one style ###################### */
+  .section-one {
+    margin-top: 150px;
+    text-align: center;
+    align-items: center;
+  }
+  .section-one-header {
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .section-one-pargraph {
+    font-size: 15px;
+    line-height: 1.5rem;
+    margin-bottom: 50px;
+  }
+
+  .section-one-btn {
+    border: 2px solid var(--Pink);
+    text-decoration: none;
+    width: 250px;
+    height: 50px;
+    padding: 15px;
+    margin: auto;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    background-color: var(--Pink);
+  }
+
+  .section-one-btn a {
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+
+  /* !################section Two style ###################### */
+  .section-two {
+    margin-top: 75px;
+  }
+
+  .section-two-photo {
+    text-align: center;
+  }
+  .section-img {
+    height: 264px;
+  }
+
+  .number-contanier {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 70px;
+  }
+
+  .number-of-message {
+    margin-bottom: 57px;
+  }
+
+  .people,
+  .numbers {
+    font-size: 60px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .people-image,
+  .message-image {
+    height: 30px;
+  }
+  .message-paragraph,
+  .people-paragraph {
+    text-align: center;
+    font-size: 14px;
+  }
+
+  /* !################section Three style ###################### */
+  .section-three {
+    margin-top: 75px;
+    text-align: center;
+  }
+
+  .image-container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    background-color: #f7fcff;
+  }
+
+  .border-up-image img {
+    box-shadow: 1px 20px 5px #f7fcff;
+    height: 111px;
+  }
+  .border-bottom-image img {
+    height: 93px;
+  }
+
+  .image-of-container img {
+    height: 334px;
+  }
+
+  .imag-text-container {
+    margin-top: 52px;
+  }
+
+  .header-section-three {
+    font-size: 3em;
+  }
+  .section-three-paragraph {
+    line-height: 1.5;
+  }
+
+  /* !################section Four style ###################### */
+  .sectionfour {
+    margin-top: 30px;
+    align-items: center;
+  }
+
+  .imag-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* ! ################section five style ###################### */
+
+  .container5 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f7fcff;
+  }
+  .borderupimage5 img {
+    box-shadow: 1px 20px 5px #f7fcff;
+    height: 111px;
+  }
+
+  /*!##############section six ###################### */
+  .sectionsix {
+    text-align: center;
+    align-items: center;
+    margin: 100px auto 150px auto;
+  }
+
+  .submitheader {
+    font-size: 3em;
+    margin-bottom: 30px;
+  }
+
+  .btncontiner {
+    border: 1px solid var(--Pink);
+    width: 300px;
+    height: 50px;
+    margin: auto;
+    font-size: 20px;
+    padding-bottom: 7px;
+    padding-top: 12px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background-color: var(--Pink);
+  }
+  .submitbtn {
+    text-decoration: none;
+    padding: 30px;
+    color: black;
+  }
+
+  /* !###############footer ############################*/
+  footer {
+    color: white;
+    height: 200px;
+  }
+  .footerlinks {
+    margin-right: 350px;
+  }
+
+  .footercontainer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #03252e;
+  }
+
+  .footerimage img {
+    box-shadow: 1px 20px 5px #03252e;
+    margin: auto;
+    height: 148px;
+  }
+  .linkstext p {
+    font-size: 15px;
+    line-height: 2;
+  }
+
+  .formtext p {
+    font-size: 15px;
+    line-height: 2;
+  }
+  .footerlinks {
+    padding-bottom: 95px;
+  }
+
+  #email {
+    width: 273px;
+    height: 38px;
+    border-radius: 5px;
+    border: 2px solid var(--Pink);
+    outline: none;
+  }
+
+  #submitt {
+    width: 149px;
+    height: 37px;
+    border-radius: 10px;
+    background-color: var(--Pink);
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 35px;
   }
 }

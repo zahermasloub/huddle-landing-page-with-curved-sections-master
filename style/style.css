@@ -373,8 +373,8 @@ footer {
     -o-transition: all 0.5s 0s ease;
   }
   .loog {
-    height: 35px;
-    width: 159px;
+    height: 29px;
+    width: 147px;
   }
   .navBtn:hover {
     background-color: rgb(240, 172, 183);
@@ -518,7 +518,10 @@ footer {
 
   .container5 {
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
     background-color: #f7fcff;
   }
   .borderupimage5 img {
@@ -570,14 +573,16 @@ footer {
 
   .footercontainer {
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column-reverse;
+    text-align: center;
+    align-items: center;
     background-color: #03252e;
   }
 
   .footerimage img {
     box-shadow: 1px 20px 5px #03252e;
     margin: auto;
-    height: 148px;
+    height: 42px;
   }
   .linkstext p {
     font-size: 15px;
@@ -589,6 +594,7 @@ footer {
     line-height: 2;
   }
   .footerlinks {
+    margin:68px auto auto auto;
     padding-bottom: 95px;
   }
 
@@ -608,6 +614,6 @@ footer {
     color: black;
     font-size: 15px;
     font-weight: bold;
-    margin-left: 35px;
+    margin: 20px auto auto auto;
   }
 }
